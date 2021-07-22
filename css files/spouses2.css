@@ -1,0 +1,47 @@
+/* CONTENT */
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 640px;
+}
+
+.section {
+    padding: 79px;
+}
+
+.part1 img {
+    height: 300px;
+    width: 210px;
+    box-shadow: 10px 10px 5px black, -10px -10px 5px black;
+}
+
+.part1 {
+    display: block;
+    padding: 5px;
+}
+
+.part2 {
+    background-color: rgb(158 178 232);
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 10px 10px 5px black;
+    font-family: 'Reggae One', cursive;
+}
+
+.section a {
+    text-decoration: none;
+    color: #21204e;
+}
+
+.part2:hover{
+    background-color: rgb(27 45 84 / 1);
+    color: rgb(158 178 232);
+}
+
+.part1:hover{
+    filter: brightness(60%);
+}

@@ -1,0 +1,14 @@
+body {
+    background:no-repeat linear-gradient(#0043ffd6, #ff76009e);
+    background-size: cover;
+}
+
+.section {
+    padding: 30px;
+}
+
+#container {
+    margin-top: 51px;
+    height: auto;
+    margin-bottom: 51px
+}
